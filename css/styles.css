@@ -86,7 +86,7 @@ a:hover {
 	border-radius: 0px;
 }
 .mrgn30 {
-	margin: 20px 0;
+	margin: 30px 0;
 }
 .copyright {
 	color: #6D6D6D;
@@ -314,7 +314,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	color: #fff;
 }
 .heroText {
-	margin-top: 20%;
+	margin-top: 30%;
 }
 .heroText h2 {
 	border: none;
@@ -323,7 +323,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	line-height: 50px;
 	padding-bottom: 0;
 	font-size: 45px;
-	margin-bottom: 35px;
+	margin-bottom: 45px;
 	font-weight: bold;
 }
 .heroText h2 span {
@@ -440,7 +440,6 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .skillContainer{
 	margin-bottom: 50px;	
 	display: flex;
-	/* justify-content: space-between; */
 	flex-wrap: wrap;
 }
 
