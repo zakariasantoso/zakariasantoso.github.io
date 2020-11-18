@@ -7,6 +7,7 @@ Author URI: http://webthemez.com/
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
 }
 body {
 	font-size: 14px;
@@ -85,7 +86,7 @@ a:hover {
 	border-radius: 0px;
 }
 .mrgn30 {
-	margin: 30px 0;
+	margin: 20px 0;
 }
 .copyright {
 	color: #6D6D6D;
@@ -164,7 +165,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 /*.carousel-inner*/
 #myCarousel {
-	margin-top: 50px;
+	margin-top: 40px;
 	border-bottom: 4px solid #FF7A00;
 }
 .carousel-inner > .item {
@@ -259,7 +260,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .page-section h1 {
 	font-size: 3.5em;
-	margin: 90px 0 30px;
+	margin: 80px 0 30px;
 	line-height: 1.2em;
 }
 .page-section h1 span {
@@ -391,7 +392,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*parlex*/
 .bg-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	background-image: url('../images/bg-quote.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -438,7 +439,11 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .skillContainer{
 	margin-bottom: 50px;	
-	}
+	display: flex;
+	/* justify-content: space-between; */
+	flex-wrap: wrap;
+}
+
 .skillBox { 
 min-height:200px;
 }
@@ -1007,4 +1012,42 @@ nav#filter li {
 	-ms-user-select: none;
 	user-select: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#skills {
+	/* margin: 20px; */
+}
+
+.card-title {
+	font-weight: 700;
+}
+
+.card {
+	padding: 15px;
+	margin: 20px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	box-shadow: 3px 1px 14px rgba(0, 0, 0, 0.37);
+	min-width: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* min-height: 250px; */
+	transition: .6s;
+}
+
+.card:hover {
+	box-shadow: 7px 3px 17px rgba(0, 0, 0, 0.37);
+	transform: scale(1.05);
+}
+
+
+.card img {
+	max-width: 50%;
+	/* margin: 10px; */
+}
+
+.card-text b {
+	color: black;
 }
