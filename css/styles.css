@@ -294,6 +294,17 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	width: 100%;
 	
 }
+#aboutUs{
+	padding-top:60px;	
+		}
+	#aboutUs .txtHead {
+		background: #fff;
+		padding: 20px 10px;
+	}
+	#aboutUs .txtHead .fa {
+		font-size: 58px;
+		color: #5E5E5E;
+	}
 .banner-content {
 	position: absolute;
 	z-index: 3;
@@ -440,6 +451,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 .skillContainer{
 	margin-bottom: 50px;	
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -720,6 +732,7 @@ hr {
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
+	overflow-x: hidden;
 }
 #navigation {
 	position: fixed;
@@ -1032,7 +1045,7 @@ nav#filter li {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* min-height: 250px; */
+	max-width: 20rem;
 	transition: .6s;
 }
 
