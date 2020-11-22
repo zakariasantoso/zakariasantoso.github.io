@@ -1014,6 +1014,10 @@ nav#filter li {
 	transition: .6s;
 }
 
+.portfolioContainer .card h3 {
+ color: #0c0c0c;
+}
+
 .portfolioContainer .card a {
 	display: flex;
 	flex-direction: column;
