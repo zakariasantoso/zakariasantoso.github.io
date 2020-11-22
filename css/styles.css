@@ -1019,6 +1019,10 @@ nav#filter li {
 }
 
 .portfolioContainer .card a {
+	text-decoration: none;
+}
+
+.portfolioContainer .card a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
