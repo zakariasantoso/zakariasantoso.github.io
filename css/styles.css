@@ -1,7 +1,3 @@
-/*
-Theme Name: ME – Resume and Personal Portfolio Responsive Template
-Author URI: http://webthemez.com/ 
-*/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 * {
 	margin: 0;
@@ -17,12 +13,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #FF7A00;
+	background: #6C63FF;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #FF7A00;
+ background: #6C63FF;
 }
 p {
 	color: #858585;
@@ -59,7 +55,7 @@ p {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #FF7A00;
+	color: #6C63FF;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -80,7 +76,7 @@ a:hover {
 	background: #DF6B00;
 }
 .btn-primary {
-	background: #FF7A00;
+	background: #6C63FF;
 }
 .form-control {
 	border-radius: 0px;
@@ -102,7 +98,7 @@ a:hover {
 	bottom: 20px;
 	right: 20px;
 	z-index: 5;
-	background: #FF7A00;
+	background: #6C63FF;
 }
 .topHome .fa-2x {
 	font-size: 20px;
@@ -126,18 +122,18 @@ h2 {
 	top: 0px;
 }
 .navbar-inverse .navbar-toggle {
-	border-color: #FF7A00;
-	background-color: #FF7A00;
+	border-color: #6C63FF;
+	background-color: #6C63FF;
 }
 .header .navbar {
 	margin: 0;
 	background: transparent !important;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-/*background-color: #FF7A00;*/
+/*background-color: #6C63FF;*/
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background: #FF7A00;
+	background: #6C63FF;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
 	color: #fff;
@@ -152,7 +148,7 @@ h2 {
 	color: #FFFFFF;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #FF7A00;
+	color: #6C63FF;
 	background: none;
 }
 .navbar-toggle {
@@ -166,7 +162,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 /*.carousel-inner*/
 #myCarousel {
 	margin-top: 40px;
-	border-bottom: 4px solid #FF7A00;
+	border-bottom: 4px solid #6C63FF;
 }
 .carousel-inner > .item {
 }
@@ -193,13 +189,13 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 }
 .actionPanel {
 	padding: 25px 0;
-	background: #FF7A00;
+	background: #6C63FF;
 }
 .actionPanel h3 {
 	margin: 0px;
 }
 .circle {
-	background: #FF7A00;
+	background: #6C63FF;
 	height: 60px;
 	width: 60px;
 	border-radius: 35px;
@@ -212,7 +208,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	padding: 16px 15px;
 	line-height: 18px;
 	height: 50px;
-	/*color:#FF7A00;*/;
+	/*color:#6C63FF;*/;
 }
 .navbar-brand b {
 	color: #fff;
@@ -240,7 +236,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	border-radius: 5px;
 }
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-	color: #FF7A00;
+	color: #6C63FF;
 	background: none;
 }
 .navbar-nav > li:hover > a {
@@ -267,7 +263,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	font-weight: 200;
 }
 .page-section h2 {
-	color: #FF7A00;
+	color: rgb(0, 0, 0);
 }
 .page-section p {
 	font-size: 1.1em;
@@ -277,7 +273,7 @@ box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	background: rgb(44, 44, 44);
 }
 .darkBg .fa {
-	color: #FF7A00;
+	color: #6C63FF;
 }
 /*--- Banner ----*/
 .banner-container {
@@ -509,7 +505,7 @@ min-height:200px;
 }
 .experience-details .icon-block i {
 	font-size: 60px;
-	color: #FF7A00;
+	color: #6C63FF;
 	margin: 8px 0 0;
 }
 .experience-details span {
@@ -517,7 +513,7 @@ min-height:200px;
 	color: #000;
 }
 .progress-bar {
-	background-color: #FF7A00;
+	background-color: #6C63FF;
 }
 /* Services
     -------------------------------------------------*/
@@ -557,7 +553,7 @@ min-height:200px;
 .team-member .member-img img {
 	max-width: 250px;
 	margin: 0 auto;
-	border: 1px solid #FF7A00;
+	border: 1px solid #6C63FF;
 }
 .team-member h4 {
 	font-size: 19px;
@@ -711,7 +707,7 @@ footer {
 	background: #fff;
 }
 .social a:hover {
-	color: #FF7A00;
+	color: #6C63FF;
 }
 .social a {
 	font-size: 23px;
