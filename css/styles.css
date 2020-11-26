@@ -547,7 +547,7 @@ min-height:200px;
 .team-member {
 	margin-bottom: 15px;
 }
-.member-img {
+.member-img { 
 	overflow: hidden;
 }
 .team-member .member-img img {
@@ -659,7 +659,6 @@ hr {
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
-	overflow-x: hidden;
 }
 #navigation {
 	position: fixed;
@@ -1038,4 +1037,8 @@ nav#filter li {
 	border-radius: 12px 12px 0px 0px;
 	max-width: 100%;
 	/* margin: 10px; */
+}
+
+.imgAbout {
+	overflow-x: hidden;
 }
