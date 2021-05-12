@@ -1,6 +1,7 @@
 var customScripts = {
   onePageNav: function () {
-    $("#main-nav ul li:first-child").hasClass("active") && $("#main-nav").css("background", "none"),
+    $("#main-nav ul li:first-child").hasClass("active") &&
+      $("#main-nav").css("background", "none"),
       $("#mainNav").onePageNav({
         currentClass: "active",
         changeHash: !1,
@@ -10,10 +11,14 @@ var customScripts = {
         easing: "swing",
         begin: function () {},
         end: function () {
-          $("#main-nav ul li:first-child").hasClass("active") ? $(".header").removeClass("addBg") : $(".header").addClass("addBg");
+          $("#main-nav ul li:first-child").hasClass("active")
+            ? $(".header").removeClass("addBg")
+            : $(".header").addClass("addBg");
         },
         scrollChange: function (a) {
-          $("#main-nav ul li:first-child").hasClass("active") ? $(".header").removeClass("addBg") : $(".header").addClass("addBg");
+          $("#main-nav ul li:first-child").hasClass("active")
+            ? $(".header").removeClass("addBg")
+            : $(".header").addClass("addBg");
         },
       });
   },
@@ -21,7 +26,6 @@ var customScripts = {
     customScripts.onePageNav();
   },
 };
-new WOW().init();
 $("document").ready(function () {
   customScripts.init(),
     $(window).load(function () {
