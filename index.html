@@ -1,323 +1,620 @@
 <!DOCTYPE html>
-<html lang="en-gb" class="no-js">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>Hello, I'm Zakaria Santoso. Full-stack Web Developer.</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
-    <meta name="author" content="RudeSploit" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <title>Zakaria Santoso Personal Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/3d-card.css" />
   </head>
 
   <body>
-    <header class="header">
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
       <div class="container">
-        <nav class="navbar navbar-inverse" role="navigation">
-          <div class="navbar-header">
-            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span> <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand scroll-top logo"><b>Zakaria Santoso</b></a>
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="/" class="logo">
+                <h4>
+                  Zakaria Santoso
+                  <!-- <img src="assets/images/logo-icon.png" alt="" /> -->
+                </h4>
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                <li class="scroll-to-section"><a href="#about">Tentang Saya</a></li>
+                <li class="scroll-to-section"><a href="#features">Metode Kerja</a></li>
+                <li class="scroll-to-section"><a href="#services">Layanan</a></li>
+                <li class="scroll-to-section"><a href="#portfolio">Skills</a></li>
+                <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                <li class="scroll-to-section">
+                  <div class="main-blue-button"><a href="#contact">Get Your Quote</a></div>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
           </div>
-          <div id="main-nav" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav" id="mainNav">
-              <li><a href="#home" class="scroll-link">Home</a></li>
-              <li><a href="#aboutUs" class="scroll-link">About Me</a></li>
-              <li><a href="#skills" class="scroll-link">Skills</a></li>
-              <li><a href="#portfolio" class="scroll-link">Portfolio</a></li>
-              <li><a href="#contactUs" class="scroll-link">Contact Me</a></li>
-              <li>
-                <a href="https://rudesploit.blogspot.com/" class="" target="_blank">My Blog</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        </div>
       </div>
     </header>
-    <div id="#top"></div>
-    <section id="home">
-      <div class="banner-container">
-        <img src="images/banner-bg.jpg" alt="banner" />
-        <div class="container banner-content">
-          <div class="row">
-            <div class="col">
-              <div class="heroText">
-                <h2>
-                  <span>Hello, I'm</span><br />
-                  Zakaria Santoso
-                </h2>
-                <span class="caption">Fullstack Web Developer</span>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <h2>Web Fullstack Developer</h2>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="main-green-button scroll-to-section">
+                        <a href="#contact">Get Your Quote</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="right-image wow fadeInRight card-container-3d" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <div class="card-container">
+                    <div class="card-3d">
+                      <div class="myPhoto">
+                        <div class="circle"></div>
+                        <img src="assets/images/zakaria-santoso.png" alt="Zakaria Santoso" />
+                      </div>
+                      <div class="info">
+                        <h1 class="title">Zakaria Santoso</h1>
+                        <!-- <h3>Fullstack Web Developer & Cyber Security Analyst.</h3> -->
+                        <div class="links">
+                          <a href="https://www.facebook.com/amoeba.29/" target="_blank" class="bottomHover fromLeft">Facebook</a>
+                          <a href="https://www.instagram.com/zakaria_santoso/" target="_blank" class="bottomHover fromLeft">Instagram</a>
+                          <a href="https://github.com/zakariasantoso" target="_blank" class="bottomHover fromLeft">Github</a>
+                          <a href="https://rudesploit.blogspot.com/" target="_blank" class="bottomHover fromLeft">Blog Site</a>
+                        </div>
+                        <div class="bottomBawah">
+                          <a href="http://wa.me/6283151516695" target="_blank">Chat On WhatsApp</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section id="aboutUs">
+    </div>
+
+    <div id="about" class="about-us section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 tileBoxm imgAbout">
-            <img src="images/zakaria-santoso.jpg" alt="Zakaria Santoso" class="img-responsive" />
+          <div class="col-lg-6">
+            <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+              <img src="assets/images/zakaria-santoso.jpg" alt="Muhammad Zakaria Santoso" />
+            </div>
           </div>
-          <div class="col-md-8 tileBox">
-            <div class="txtHead">
-              <h2>I am Muhammad Zakaria Santoso,</h2>
-              <h3>Web Fullstack Developer & Web Penetration Tester Based in Indonesia.</h3>
+          <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+            <div class="section-heading">
+              <h6>Tentang Saya</h6>
+              <h2>Web <em>fullstack</em> developer & <span>Cyber Security</span> Analyst.</h2>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <div class="about-item">
+                  <h4>7+</h4>
+                  <h6>Projek selesai</h6>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="about-item">
+                  <h4>2+</h4>
+                  <h6>Bahasa Program Dikuasai</h6>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="about-item">
+                  <h4>7+</h4>
+                  <h6>Framework Dikuasai</h6>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <div class="about-item">
+                  <h4>1+</h4>
+                  <h6>Penghargaan</h6>
+                </div>
+              </div>
             </div>
             <p>
-              With 3 Years of experience in Web Development & Web Security. Mastering the knowledge of Web Development, Search Engine Optimization, and Web Penetration Test especially with PHP and JavaScript programming language. and also
-              HTML and CSS as a markup language to create a fast and secure website.
-              <br />
-              <br />
-              I'm currently work at <a href="https://mujaka.net/" target="_blank">CV MUJIO PUNAKAWAN</a> and freelancing at <a href="https://www.fiverr.com/zakariasantoso" target="_blank">Fiverr.com </a>in a free time, I filled my time with
-              writing some blogs or tutorials <a href="https://rudesploit.blogspot.com/" target="_blank">here.</a>
+              Perkenalkan nama saya Muhammad Zakaria Santoso, saat ini saya bekerja sebagai Web Fullstack Developer di suatu perusahaan IT consultant di Sumatera Utara. Menyukai tantangan dan hal baru, serta menerima project aplikasi
+              berdasarkan permintaan client.
             </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="skills" class="secPad white">
+    <div id="features" class="features section">
       <div class="container">
-        <div class="heading">
-          <h2>My Skills</h2>
-        </div>
-        <div class="row skillContainer">
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" class="card-img-top" alt="HTML5" />
-
-            <h5 class="card-title">HTML</h5>
-            <p class="card-text"><b>3 Years</b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" class="card-img-top" alt="CSS" />
-
-            <h5 class="card-title">CSS</h5>
-            <p class="card-text"><b>3 Years</b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="images/heker.svg" class="card-img-top" alt="Wordpress" />
-
-            <h5 class="card-title">Web Security</h5>
-            <p class="card-text"><b>3 Years </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="images/php.svg" class="card-img-top" alt="PHP" />
-
-            <h5 class="card-title">PHP</h5>
-            <p class="card-text"><b>3 Years</b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" class="card-img-top" alt="JavaScript" />
-
-            <h5 class="card-title">JavaScript</h5>
-            <p class="card-text"><b>1 Years</b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" class="card-img-top" alt="Laravel" />
-
-            <h5 class="card-title">Laravel</h5>
-            <p class="card-text"><b>7 Months </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" class="card-img-top" alt="WordPress" />
-
-            <h5 class="card-title">WordPress Development</h5>
-            <p class="card-text"><b>10 Months </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://docs.vuejs.id/images/logo.png" class="card-img-top" alt="JavaScript" />
-
-            <h5 class="card-title">Vue JS</h5>
-            <p class="card-text"><b>1 Years </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png" class="card-img-top" alt="JavaScript" />
-
-            <h5 class="card-title">React JS</h5>
-            <p class="card-text"><b>2 Months </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://4.bp.blogspot.com/-tXnxomQ18LA/W69S3HKCUuI/AAAAAAAAEp4/00QTjq1aHkASp9OZahImWJxad8dAlJTZQCLcBGAs/s1600/codeigniter.jpg" class="card-img-top" alt="codeigniter" />
-
-            <h5 class="card-title">Codeigniter</h5>
-            <p class="card-text"><b>2 Years </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png" class="card-img-top" alt="SASS" />
-
-            <h5 class="card-title">SASS</h5>
-            <p class="card-text"><b>1 Years </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://i.pinimg.com/564x/77/88/25/778825be381be66db27d56ba533034ea.jpg" class="card-img-top" alt="Python" />
-
-            <h5 class="card-title">Python</h5>
-            <p class="card-text"><b>3 Months </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://avatars0.githubusercontent.com/u/70142?s=200&v=4" class="card-img-top" alt="JQuery" />
-
-            <h5 class="card-title">JQuery</h5>
-            <p class="card-text"><b>2 Months </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/id/thumb/a/a9/MySQL.png/200px-MySQL.png" class="card-img-top" alt="MySQL" />
-
-            <h5 class="card-title">MySQL</h5>
-            <p class="card-text"><b>3 Years </b> of experience.</p>
-          </div>
-          <div class="card">
-            <img src="https://www.scientiamobile.com/page/wp-content/uploads/2014/05/nodejs-light-300x150.png" class="card-img-top" alt="NodeJS" />
-
-            <h5 class="card-title">NodeJS</h5>
-            <p class="card-text"><b>2 Months </b> of experience.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="portfolio" class="page-section section appear clearfix secPad">
-      <div class="container">
-        <div class="heading">
-          <h2>My Projects</h2>
-        </div>
-        <div class="row portfolioContainer">
-          <div class="card">
-            <img src="images/portfolio/spp home.jpg" class="card-img-top" alt="HTML5" />
-            <div class="card-body">
-              <h3 class="card-title">E - SPP</h3>
-              <p class="card-text">
-                A fully responsive and secure web application to manage tuition fees in SMK Negeri 1 Percut Sei Tuan. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and Bootstrap 4 in
-                front-end.
-              </p>
-              <a href="http://demo-spp.zakariasantoso.rf.gd/" target="_blank">See Demo</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="images/portfolio/stok barang.jpg" class="card-img-top" alt="HTML5" />
-            <div class="card-body">
-              <h3 class="card-title">Stock Management Web App</h3>
-              <p class="card-text">
-                a fully responsive and secure web application to manage inventory in PT Wira Mahkota Pekan Baru. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and Bootstrap 4 in front-end.
-              </p>
-              <a href="http://demo-stock-management.zakariasantoso.rf.gd/" target="_blank">See Demo</a>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://ppmasahan.org/" target="_blank" class="fancybox">
-              <img src="images/portfolio/ppma.jpg" class="card-img-top" alt="HTML5" />
-              <div class="card-body">
-                <h3 class="card-title">PPMA Web App</h3>
-                <p class="card-text">
-                  Web application for member management in Perkumpulan Persaudaraan Masyarakat Asahan (PPMA) organization. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and Bootstrap 4 in
-                  front-end.
-                </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 class="bottomHover text-center m-5 fw-bolder">Bagaimana Saya Bekerja?</h3>
+            <div class="features-content">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                    <div class="first-number number">
+                      <h6>01</h6>
+                    </div>
+                    <div class="icon"></div>
+                    <h4>Mengumpulkan Informasi</h4>
+                    <div class="line-dec"></div>
+                    <p>Sebelum memulai project, saya akan mengumpulkan informasi yang dibutuhkan seperti kebutuhan client, input dan output yang diinginkan seperti apa, dan lain-lain.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="second-number number">
+                      <h6>02</h6>
+                    </div>
+                    <div class="icon"></div>
+                    <h4>Membuat Gambaran Project</h4>
+                    <div class="line-dec"></div>
+                    <p>Sebelum memulai mengerjakan project, saya akan membuat gambaran project seperti desain database, relasi tabel, teknologi apa yang akan digunakan, dll.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="third-number number">
+                      <h6>03</h6>
+                    </div>
+                    <div class="icon"></div>
+                    <h4>Implementasi</h4>
+                    <div class="line-dec"></div>
+                    <p>Di tahap ini, saya akan mengimplementasikan gambaran yang sudah saya buat berdasarkan informasi yang saya kumpulkan di awal.</p>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="fourth-number number">
+                      <h6>04</h6>
+                    </div>
+                    <div class="icon"></div>
+                    <h4>Menganalisa Hasil Project</h4>
+                    <div class="line-dec"></div>
+                    <p>Sebelum di publish, saya akan melakukan analisa pada project yang sudah saya buat untuk memastikan hasil project yang saya kerjakan berkualitas tinggi mulai dari segi kecepatan loading, SEO, security, dll.</p>
+                  </div>
+                </div>
               </div>
-            </a>
-          </div>
-          <div class="card">
-            <img src="images/portfolio/inventaris.jpg" class="card-img-top" alt="HTML5" />
-            <div class="card-body">
-              <h3 class="card-title">Inventory Management Web App</h3>
-              <p class="card-text">
-                a fully responsive and secure web application to manage inventory in PT Samudra Jaya Cargo. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and Bootstrap 4 in front-end.
-              </p>
-              <a href="http://demo-inventaris.zakariasantoso.rf.gd/" target="_blank">See Demo</a>
             </div>
-          </div>
-          <div class="card">
-            <img src="images/portfolio/penggajian.jpg" class="card-img-top" alt="HTML5" />
-            <div class="card-body">
-              <h3 class="card-title">Payroll System Web Application</h3>
-              <p class="card-text">
-                a fully responsive and secure web application to manage the payroll system in RSU Mitra Medika. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and Bootstrap 4 in front-end.
-              </p>
-              <a href="http://demo-payroll-system.zakariasantoso.rf.gd/" target="_blank">See Demo</a>
-            </div>
-          </div>
-          <div class="card">
-            <a href="https://smkn1-pst.sch.id/" target="_blank">
-              <img src="images/portfolio/smkn1pst.jpg" class="card-img-top" alt="HTML5" />
-              <div class="card-body">
-                <h3 class="card-title">Website for SMK Negeri 1 Percut Sei Tuan</h3>
-                <p class="card-text">a fully responsive website for SMK Negeri 1 Percut Sei Tuan. Built with PHP and JavaScript programming language and use Codeigniter 3 as a backend framework and MaterializeCSS in front-end.</p>
-              </div>
-            </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="contactUs" class="page-section secPad">
+    <div id="services" class="our-services section">
       <div class="container">
         <div class="row">
-          <div class="heading">
-            <h2>Let's Keep In Touch!</h2>
-            <p>Thank you for visiting out my profile. If you would like to get into contact with me, here is my contact info</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-8">
-            <h4>
-              <a href="https://www.facebook.com/amoeba.29/" target="_blank"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzY1LjEyIiBoZWlnaHQ9IjEzNjUuMTIiIHZpZXdCb3g9IjAgMCAxNDIyMiAxNDIyMiI+PGNpcmNsZSBjeD0iNzExMSIgY3k9IjcxMTIiIHI9IjcxMTEiIGZpbGw9IiMxOTc3ZjMiLz48cGF0aCBkPSJNOTg3OSA5MTY4bDMxNS0yMDU2SDgyMjJWNTc3OGMwLTU2MiAyNzUtMTExMSAxMTU5LTExMTFoODk3VjI5MTdzLTgxNC0xMzktMTU5Mi0xMzljLTE2MjQgMC0yNjg2IDk4NC0yNjg2IDI3Njd2MTU2N0g0MTk0djIwNTZoMTgwNnY0OTY5YzM2MiA1NyA3MzMgODYgMTExMSA4NnM3NDktMzAgMTExMS04NlY5MTY4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="
-                  style="width: 30px; margin-right: 10px"
-                  alt=""
-                />Muhammad Zakaria Santoso</a
-              >
-            </h4>
-            <h4>
-              <a href="https://github.com/zakariasantoso" target="_blank"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuMDI2IDJhOS45NzUgOS45NzUgMCAwMC0zLjE1MyAxOS40MzljLjUuMDkuNjc5LS4yMTcuNjc5LS40ODEgMC0uMjM3LS4wMDgtLjg2NS0uMDExLTEuNy0yLjc3NS42LTMuMzYxLTEuMzM4LTMuMzYxLTEuMzM4YTIuNjM1IDIuNjM1IDAgMDAtMS4xMDctMS40NTljLS45LS42MTkuMDY5LS42MDUuMDY5LS42MDUuNjQuMDg4IDEuMjA1LjQ2NyAxLjUyNyAxLjAyOGEyLjEyNCAyLjEyNCAwIDAwMi45LjgyOWMuMDQ2LS41MDYuMjcyLS45NzkuNjM1LTEuMzM0LTIuMjE0LS4yNTEtNC41NDItMS4xMDctNC41NDItNC45M2EzLjg2NSAzLjg2NSAwIDAxMS4wMjYtMi42NzEgMy41ODggMy41ODggMCAwMS4xLTIuNjRzLjgzNy0uMjY5IDIuNzQyIDEuMDIxYTkuNDM5IDkuNDM5IDAgMDE0Ljk5MiAwYzEuOTA2LTEuMjkxIDIuNzQyLTEuMDIxIDIuNzQyLTEuMDIxLjM3LjgzNS40MDUgMS43OC4xIDIuNjRhMy44NCAzLjg0IDAgMDExLjAyNCAyLjY3NWMwIDMuODMzLTIuMzMgNC42NzUtNC41NTIgNC45MjIuNDguNDkuNzI1IDEuMTYyLjY3NSAxLjg0NiAwIDEuMzM0LS4wMTIgMi40MS0uMDEyIDIuNzM3IDAgLjI2Ny4xNzguNTc3LjY4Ny40NzlBOS45NzUgOS45NzUgMCAwMDEyLjAyNiAyeiIgZmlsbD0iIzJFM0E1OSIvPjwvc3ZnPg=="
-                  style="width: 30px; margin-right: 10px"
-                  alt=""
-                />@zakariasantoso</a
-              >
-            </h4>
-            <h4>
-              <a href="https://www.instagram.com/zakaria_santoso/" target="_blank"><img src="images/sosmed/ig.svg" style="width: 30px; margin-right: 10px" alt="" />@zakaria_santoso</a>
-            </h4>
-            <h4>
-              <a href="https://www.fiverr.com/zakariasantoso" target="_blank"
-                ><img src="https://img.utdstc.com/icon/f0e/7cb/f0e7cbcc21991a51b525c580e64fd613062dbd7014c1c108e12d6d464ce0de0b:200" style="width: 30px; margin-right: 10px" alt="" />@zakariasantoso</a
-              >
-            </h4>
-          </div>
-          <div class="col-sm-12 col-md-2">
-            <h4>Address:</h4>
-            <address>
-              Muhammad Zakaria Santoso<br />
-              Road Pandu Karya <br />
-              block A number 35 housing Cendana Asri<br />
-              Medan Tembung, Indonesia. <br />
-            </address>
-            <h4>WhatsApp:</h4>
-            <address><a href="http://wa.me/6283151516695" target="_blank">+62831-5151-6695</a><br /></address>
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+              <h6>My Services</h6>
+              <h2>Discover What I Do &amp; <span>Offer</span> To My <em>Clients</em></h2>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-    <footer class="copyright">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-01.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="right-content">
+                    <h4>Website Development</h4>
+                    <p>
+                      Saya menawarkan servis berupa pengembangan website seperti portofolio, company profile, e-commerce, dll. Website yang saya buat juga memiliki tampilan yang responsif sehingga nyaman dilihat saat diakses di perangkat
+                      manapun.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-03.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="right-content">
+                    <h4>Application Development</h4>
+                    <p>
+                      Untuk mengelola data yang banyak, seringkali perusahaan kesulitan mengelolanya. Belum lagi semakin lama data akan semakin banyak dan akan sulit dikelola dengan baik. Oleh karena itu, saya menawarkan servis berupa
+                      pengembangan aplikasi untuk mempermudah perusahaan dalam mengelola data.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="icon">
+                    <img src="assets/images/service-icon-02.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="right-content">
+                    <h4>Cyber Security Analyst</h4>
+                    <p>
+                      Dengan kemudahan akses internet yang ada di zaman sekarang, seringkali terjadi kasus kebocoran data yang disebabkan oleh keamanan aplikasi yang minim. Oleh karena itu saya menyediakan layanan
+                      <em>Cyber Security Analyst</em> untuk menyelesaikan masalah keamanan aplikasi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="our-portfolio section">
       <div class="container">
         <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6">
-            <span class="pull-right">Copyright 2020 | Muhammad Zakaria Santoso</span>
+          <div class="col-lg-8">
+            <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+              <h6>My Skills</h6>
+              <!-- <h2>Discover Our Recent <em>Projects</em> And <span>Showcases</span></h2> -->
+              <h2>Discover My <em>Skills, Programming Language & Framework</em> that I use to build my <span>Projects </span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="loop owl-carousel">
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>HTML</h4>
+                        <span><b>4 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/id/thumb/a/a9/MySQL.png/200px-MySQL.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>MySQL</h4>
+                        <span><b>4 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/heker.svg" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Web Security</h4>
+                        <span><b>3 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Laravel</h4>
+                        <span><b>1 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>JavaScript</h4>
+                        <span><b>2 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="assets/images/php.svg" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>PHP</h4>
+                        <span><b>4 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>WordPress Development</h4>
+                        <span><b>1 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://docs.vuejs.id/images/logo.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Vue JS</h4>
+                        <span><b>1 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>React JS</h4>
+                        <span><b>2 Month</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://4.bp.blogspot.com/-tXnxomQ18LA/W69S3HKCUuI/AAAAAAAAEp4/00QTjq1aHkASp9OZahImWJxad8dAlJTZQCLcBGAs/s1600/codeigniter.jpg" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>CodeIgniter</h4>
+                        <span><b>3 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>SASS</h4>
+                        <span><b>1 Year</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://i.pinimg.com/564x/77/88/25/778825be381be66db27d56ba533034ea.jpg" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Python</h4>
+                        <span><b>3 Month</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://avatars0.githubusercontent.com/u/70142?s=200&v=4" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>JQuery</h4>
+                        <span><b>4 Months</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://inertiajs.com/previews/home.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Inertia JS</h4>
+                        <span><b>2 Months</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://www.scientiamobile.com/wp-content/uploads/2014/05/nodejs-light-300x150.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>Node JS</h4>
+                        <span><b>4 Months</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-item">
+                  <div class="thumb">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="" />
+                    <div class="hover-content">
+                      <div class="inner-content">
+                        <h4>CSS</h4>
+                        <span><b>4 Years</b> of experience</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact-us section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+            <form id="contact" class="contactForm" action="" method="post">
+              <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                  <div class="section-heading">
+                    <h6>Contact Me</h6>
+                    <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Me</h2>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required />
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="" />
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-6">
+                      <fieldset>
+                        <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on" />
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="contact-info">
+                    <ul>
+                      <li>
+                        <div class="icon">
+                          <img src="assets/images/contact-icon-01.png" alt="email icon" />
+                        </div>
+                        <a href="#">santosozakaria29@gmail.com</a>
+                      </li>
+                      <li>
+                        <div class="icon">
+                          <img src="assets/images/contact-icon-02.png" alt="phone" />
+                        </div>
+                        <a href="#">+6283151516695</a>
+                      </li>
+                      <li>
+                        <div class="icon">
+                          <img src="assets/images/contact-icon-03.png" alt="location" />
+                        </div>
+                        <a href="#">JL Gaperta Ujung GG. KLH</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <p>
+              Copyright © Zakaria Santoso All Rights Reserved.
+
+              <br />Template Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a> and Developed by
+              <a rel="nofollow" href="https://zakariasantoso.github.io/" title="Zakaria Santoso">Me</a>
+            </p>
           </div>
         </div>
       </div>
     </footer>
 
-    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.nav.js" type="text/javascript"></script>
-
-    <script src="js/custom.js" type="text/javascript"></script>
-    <script src="js/owl-carousel/owl.carousel.js"></script>
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/3d-card.js"></script>
   </body>
 </html>
