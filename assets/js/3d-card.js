@@ -9,20 +9,20 @@ const bottomBawah = document.querySelector(".bottomBawah");
 const links = document.querySelector(".links");
 
 //Moving Animation Event
-container.addEventListener("mousemove", (e) => {
-  let xAxis = (window.innerWidth / 2 - e.clientX / 1.3) / 25;
-  let yAxis = (window.innerHeight / 2 - e.clientY) / 25;
-  card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
-});
+// container.addEventListener("mousemove", (e) => {
+//   let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+//   let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+//   card.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+// });
 //Animate In
 container.addEventListener("mouseenter", (e) => {
   card.style.transition = "none";
   //Popout
-  title.style.transform = "translateZ(100px)";
-  myPhoto.style.transform = "translateZ(80px) translateY(20px)";
+  title.style.transform = "translateZ(150px)";
+  myPhoto.style.transform = "translateZ(200px) translateY(20px)";
   // description.style.transform = "translateZ(100px)";
   links.style.transform = "translateZ(100px)";
-  bottomBawah.style.transform = "translateZ(65px)";
+  bottomBawah.style.transform = "translateZ(75px)";
 });
 //Animate Out
 container.addEventListener("mouseleave", (e) => {

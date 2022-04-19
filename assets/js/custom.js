@@ -73,7 +73,7 @@
         type: "POST",
         url: "http://node.mujaka.net/send-message",
         data: {
-          number: "6283151516695",
+          number: "6283800187937",
           message: waMessage,
           key: "RudeSploit",
         },
