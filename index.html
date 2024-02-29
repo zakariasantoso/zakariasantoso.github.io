@@ -1,622 +1,383 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Zakaria Santoso's website features his background, interests, and projects.">
-    <meta name="author" content="Zakaria Santoso" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet" /> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fullstack web developer with a passion for creating web applications.">
+    <meta name="author" content="Zakaria Santoso">
 
-    <title>Zakaria Santoso Personal Website</title>
+    <title>
+      Zakaria Santoso - Web 3.0 Developer
+    </title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/unicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <!-- Additional CSS Files --> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/style.min.css" />
-    <link rel="stylesheet" href="assets/css/animated.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/3d-card.min.css" />
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="css/personal-style.css">
   </head>
-
   <body>
-    <!-- ***** Preloader Start ***** -->
-    <!-- <div id="js-preloader" class="js-preloader">
-      <div class="preloader-inner">
-        <span class="dot"></span>
-        <div class="dots">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-    </div> -->
-    <!-- ***** Preloader End ***** -->
 
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="main-nav d-flex justify-content-center">
-              <!-- ***** Logo Start ***** -->
-              <!-- <a href="/" class="logo">
-                <h4>
-                  Zakaria Santoso
-                </h4>
-              </a> -->
-              <!-- ***** Logo End ***** -->
-              <!-- ***** Menu Start ***** -->
-              <ul class="nav fw-bold">
-                <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                <li class="scroll-to-section"><a href="#about">Tentang Saya</a></li>
-                <li class="scroll-to-section"><a href="#features">Metode Kerja</a></li>
-                <li class="scroll-to-section"><a href="#services">Layanan</a></li>
-                <li class="scroll-to-section"><a href="#portfolio">Skills</a></li>
-                <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
-                <!-- <li class="scroll-to-section">
-                  <div class="main-blue-button"><a href="#contact">Get Your Quote</a></div>
-                </li> -->
-              </ul>
-              <a class="menu-trigger">
-                <span>Menu</span>
-              </a>
-              <!-- ***** Menu End ***** -->
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Zakaria Santoso</a>
 
-    <div class="main-banner wow fadeIn" id="top" data-wow-duration="0.5s" data-wow-delay="0.5s">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                      <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                        <i class="color-mode-icon"></i>
+                        Color mode
+                      </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-6 align-self-center">
-                <div class="left-content header-text">
-                  <div class="row">
-                    <div class="col-lg-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                      <h2>Web Fullstack Developer</h2>
-                    </div>
-                    <div class="col-lg-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                      <div class="main-green-button scroll-to-section">
-                        <a href="#contact">Get Your Quote</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="right-image card-container-3d wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
-                  <div class="card-container">
-                    <div class="card-3d">
-                      <div class="myPhoto">
-                        <div class="circle"></div>
-                        <img loading="lazy" src="assets/images/zakaria-santoso.webp" alt="Foto Profil Zakaria Santoso">
-                      </div>
-                      <div class="info">
-                        <h1 class="title">Zakaria Santoso</h1>
-                        <!-- <h3>Fullstack Web Developer & Cyber Security Analyst.</h3> -->
-                        <div class="links">
-                          <a href="https://www.facebook.com/amoeba.29/" target="_blank" class="bottomHover fromLeft">Facebook</a>
-                          <a href="https://www.instagram.com/zakaria_santoso/" target="_blank" class="bottomHover fromLeft">Instagram</a>
-                          <a href="https://github.com/zakariasantoso" target="_blank" class="bottomHover fromLeft">Github</a>
-                          <a href="https://rudesploit.blogspot.com/" target="_blank" class="bottomHover fromLeft">Blog Site</a>
-                        </div>
-                        <div class="bottomBawah">
-                          <a href="http://wa.me/6283800187937" target="_blank">Chat On WhatsApp</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hey pal, I'm</span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Zakaria Santoso</span>
+                                    <span class="animated-item">Web Fullstack Developer</span>
+                                    <span class="animated-item">Web 3.0 Developer</span>
+                                </div>
+                        </h1>
 
-    <div id="about" class="about-us section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="left-image wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0s">
-              <img loading="lazy" src="assets/images/zakaria-santoso.jpg" alt="Foto Profil Zakaria Santoso" />
+                        <p>
+                          I am highly energetic in Web 3.0 Development, New Technology, and Web Development. I have a passion for creating web applications and always excited to work on new projects.
+                        </p>
+                        
+                        <div class="custom-btn-group mt-4">
+                          <a href="cv - m. zakaria santoso.pdf" target="_blank" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download CV</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="images/undraw/undraw_software_engineer_lvl5.svg" class="img-fluid" alt="svg image">
+                    </div>
+                </div>
+
             </div>
-          </div>
-          <div class="col-lg-6 align-self-center">
-            <div class="section-heading">
-              <h6 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">Tentang Saya</h6>
-              <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Web <em>fullstack</em> developer & <span>Cyber Security</span> Analyst.</h2>
-            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+                
+                <div class="row">
+                  <div class="col-lg-11 text-center mx-auto col-12">
+
+                      <div class="col-lg-8 mx-auto">
+                        <h2>
+                          <span class="mobile-block">Some of my</span>
+                          Recent Projects
+                        </h2>
+                      </div>
+
+                      <div class="owl-carousel owl-theme">
+                        <!-- <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/01.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div> -->
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/02.jpg" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/03.jpg" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <!-- <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/04.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="project-info">
+                            <img src="images/project/05.png" class="img-fluid" alt="project image">
+                          </div>
+                        </div> -->
+                      </div>
+
+                  </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
             <div class="row">
-              <div class="col-lg-6 col-sm-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="about-item">
-                  <h4>14+</h4>
-                  <h6>Proyek Selesai</h6>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-6 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
-                <div class="about-item">
-                  <h4>4+</h4>
-                  <h6>Bahasa Program Dikuasai</h6>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-6 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">
-                <div class="about-item">
-                  <h4>14+</h4>
-                  <h6>Framework Dikuasai</h6>
-                </div>
-              </div>
-              <div class="col-lg-6 col-sm-6 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.5s">
-                <div class="about-item">
-                  <h4>1</h4>
-                  <h6>Penghargaan Diterima</h6>
-                </div>
-              </div>
-            </div>
-            <p class=" wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
-              Perkenalkan nama saya Muhammad Zakaria Santoso, saat ini saya bekerja sebagai Web Fullstack Developer di suatu perusahaan IT consultant di Sumatera Utara. Menyukai tantangan dan hal baru, serta menerima project aplikasi
-              berdasarkan permintaan client. Sangat tertarik dengan blockchain app development.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div id="features" class="features section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 class="bottomHover text-center m-5 fw-bolder wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0s">Bagaimana Saya Bekerja?</h3>
-            <div class="features-content">
-              <div class="row">
-                <div class="col-lg-3">
-                  <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
-                    <div class="first-number number">
-                      <h6>01</h6>
-                    </div>
-                    <div class="icon"></div>
-                    <h4>Mengumpulkan Informasi</h4>
-                    <div class="line-dec"></div>
-                    <p>Sebelum memulai project, saya akan mengumpulkan informasi yang dibutuhkan seperti kebutuhan client, input dan output yang diinginkan seperti apa, dan lain-lain.</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                    <div class="second-number number">
-                      <h6>02</h6>
-                    </div>
-                    <div class="icon"></div>
-                    <h4>Membuat Gambaran Project</h4>
-                    <div class="line-dec"></div>
-                    <p>Sebelum memulai mengerjakan project, saya akan membuat gambaran project seperti desain database, relasi tabel, teknologi apa yang akan digunakan, dll.</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                    <div class="third-number number">
-                      <h6>03</h6>
-                    </div>
-                    <div class="icon"></div>
-                    <h4>Implementasi</h4>
-                    <div class="line-dec"></div>
-                    <p>Di tahap ini, saya akan mengimplementasikan gambaran yang sudah saya buat berdasarkan informasi yang saya kumpulkan di awal.</p>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="features-item second-feature last-features-item wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-                    <div class="fourth-number number">
-                      <h6>04</h6>
-                    </div>
-                    <div class="icon"></div>
-                    <h4>Menganalisa Hasil Project</h4>
-                    <div class="line-dec"></div>
-                    <p>Sebelum di publish, saya akan melakukan analisa pada project yang sudah saya buat untuk memastikan hasil project yang saya kerjakan berkualitas tinggi mulai dari segi kecepatan loading, SEO, security, dll.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">Experiences</h2>
 
-    <div id="services" class="our-services section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 offset-lg-3">
-            <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-              <h6>My Services</h6>
-              <h2>Discover What I Do &amp; <span>Offer</span> To My <em>Clients</em></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="icon">
-                    <img loading="lazy" src="assets/images/service-icon-01.png" alt="Layanan Website Development - Muhammad Zakaria Santoso">
-                  </div>
-                </div>
-                <div class="col-lg-8">
-                  <div class="right-content">
-                    <h4>Website Development</h4>
-                    <p>
-                      Saya menawarkan servis berupa pengembangan website seperti portofolio, company profile, e-commerce, dll. Website yang saya buat juga memiliki tampilan yang responsif sehingga nyaman dilihat saat diakses di perangkat
-                      manapun.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="icon">
-                    <img loading="lazy" src="assets/images/service-icon-03.png" alt="Layanan Application Development - Muhammad Zakaria Santoso">
-                  </div>
-                </div>
-                <div class="col-lg-8">
-                  <div class="right-content">
-                    <h4>Application Development</h4>
-                    <p>
-                      Untuk mengelola data yang banyak, seringkali perusahaan kesulitan mengelolanya. Belum lagi semakin lama data akan semakin banyak dan akan sulit dikelola dengan baik. Oleh karena itu, saya menawarkan servis berupa
-                      pengembangan aplikasi untuk mempermudah perusahaan dalam mengelola data.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="icon">
-                    <img loading="lazy" src="assets/images/service-icon-02.png" alt="Layanan Cyber Security Analyst - Muhammad Zakaria Santoso">
-                  </div>
-                </div>
-                <div class="col-lg-8">
-                  <div class="right-content">
-                    <h4>Cyber Security Analyst</h4>
-                    <p>
-                      Dengan kemudahan akses internet yang ada di zaman sekarang, seringkali terjadi kasus kebocoran data yang disebabkan oleh keamanan aplikasi yang minim. Oleh karena itu saya menyediakan layanan
-                      <em>Cyber Security Analyst</em> untuk menyelesaikan masalah keamanan aplikasi.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="portfolio" class="our-portfolio section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8">
-            <div class="section-heading wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-              <h6>My Skills</h6>
-              <!-- <h2>Discover Our Recent <em>Projects</em> And <span>Showcases</span></h2> -->
-              <h2>Discover My <em>Skills, Programming Language & Framework</em> that I use to build my <span>Projects </span></h2>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="loop owl-carousel">
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>HTML</h4>
-                        <span><b>4 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/id/thumb/a/a9/MySQL.png/200px-MySQL.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>MySQL</h4>
-                        <span><b>4 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="assets/images/heker.svg" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Web Security</h4>
-                        <span><b>3 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Laravel</h4>
-                        <span><b>1 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>JavaScript</h4>
-                        <span><b>2 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="assets/images/php.svg" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>PHP</h4>
-                        <span><b>4 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>WordPress Development</h4>
-                        <span><b>1 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://docs.vuejs.id/images/logo.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Vue JS</h4>
-                        <span><b>1 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/220px-React-icon.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>React JS</h4>
-                        <span><b>2 Month</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://4.bp.blogspot.com/-tXnxomQ18LA/W69S3HKCUuI/AAAAAAAAEp4/00QTjq1aHkASp9OZahImWJxad8dAlJTZQCLcBGAs/s1600/codeigniter.jpg" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>CodeIgniter</h4>
-                        <span><b>3 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/220px-Sass_Logo_Color.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>SASS</h4>
-                        <span><b>1 Year</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://i.pinimg.com/564x/77/88/25/778825be381be66db27d56ba533034ea.jpg" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Python</h4>
-                        <span><b>6 Month</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://avatars0.githubusercontent.com/u/70142?s=200&v=4" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>JQuery</h4>
-                        <span><b>1 Year</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://inertiajs.com/previews/home.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Inertia JS</h4>
-                        <span><b>2 Months</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://www.scientiamobile.com/wp-content/uploads/2014/05/nodejs-light-300x150.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>Node JS</h4>
-                        <span><b>1 Year</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="portfolio-item">
-                  <div class="thumb">
-                    <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="" />
-                    <div class="hover-content">
-                      <div class="inner-content">
-                        <h4>CSS</h4>
-                        <span><b>4 Years</b> of experience</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="contact" class="contact-us section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contact" class="contactForm" action="" method="post">
-              <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                  <div class="section-heading">
-                    <h6 class=" wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0s">Contact Me</h6>
-                    <!-- <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Me</h2> -->
-                  </div>
-                </div>
-                <!-- <div class="col-lg-9">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <fieldset>
-                        <input type="name" name="name" id="name" placeholder="Full Name" autocomplete="on" required />
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="" />
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-6">
-                      <fieldset>
-                        <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on" />
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-12">
-                      <fieldset>
-                        <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>
-                      </fieldset>
-                    </div>
-                    <div class="col-lg-12">
-                      <fieldset>
-                        <button type="submit" id="form-submit" class="main-button">Send Message Now</button>
-                      </fieldset>
-                    </div>
-                  </div>
-                </div> -->
-                <div class="col-lg-9 wow fadeIn" data-wow-duration="0.5s" data-wow-delay="0.5s">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1990.959332063682!2d98.6188763144189!3d3.606092386324074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f7798041127%3A0x92a4d767539a9e4f!2sCV%20MUJIO%20PUNAKAWAN!5e0!3m2!1sid!2sid!4v1650377293980!5m2!1sid!2sid" style="width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-lg-3">
-                  <div class="contact-info">
-                    <ul>
-                      <li class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="icon">
-                          <img loading="lazy" src="assets/images/contact-icon-01.png" alt="email icon" />
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2019</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>Freelance Web Developer</span><small></small></h3>
+                                  <p>
+                                    I take freelance projects to develop web applications and websites. I have developed a few web applications and websites for clients since I in high school.  
+                                  </p>
+                             </div>
                         </div>
-                        <a target="_blank" href="mailto:santosozakaria29@gmail.com">santosozakaria29@gmail.com</a>
-                      </li>
-                      <li class=" wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
-                        <div class="icon">
-                          <img loading="lazy" src="assets/images/contact-icon-02.png" alt="phone" />
-                        </div>
-                        <a target="_blank" href="tel:+6283800187937">+6283800187937</a>
-                      </li>
-                      <li class="wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="1s">
-                        <div class="icon">
-                          <img loading="lazy" src="assets/images/contact-icon-03.png" alt="location" />
-                        </div>
-                        <a target="_blank" href="https://goo.gl/maps/jT9VGotgxnqC7xtK6">JL Gaperta Ujung GG. KLH</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <footer>
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2020</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Internship<small>PT Mitra Pasifik Solusindo</small></h3>
+                                <p>
+                                  I have done an internship at PT Mitra Pasifik Solusindo as a Web Developer. Achievements : 
+                                  <ul class="list-circle">
+                                    <li>
+                                      Managed to find SQL Injection vulnerability.
+                                    </li>
+                                    <li>
+                                      Managed to find cross-site scripting vulnerability.
+                                    </li>
+                                  </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2021</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Web Developer<small>CV Mujio Puankawan</small></h3>
+                                <p>
+                                  <ul class="list-circle">
+                                    <li>
+                                      Created 5 company profile websites requested by clients.
+                                    </li>
+                                    <li>
+                                      Created a membership card automation app on Pemuda Panca Marga Asahan (PPMA) Organization with
+<b>Codeigniter 3</b>.
+                                    </li>
+                                    <li>
+                                      Completed 180 village websites and village land inventory applications in Musi Banyuasin district,
+Palembang (desamuba.id).
+                                    </li>
+                                    <li>
+                                      Created a website-based online store with Laravel.
+                                    </li>
+                                    <li>
+                                      Created a face recognition attendance application.
+                                    </li>
+                                  </ul>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2023</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Co-Founder<small>PT Ahoi Game Dev</small></h3>
+                                <p>
+                                  <ul class="list-circle">
+                                    <li>
+                                      Built 2 company profile websites requested by clients.
+                                    </li>
+                                    <li>
+                                      Developed Sekolapedia Platform using <b>PHP Programming Language & Laravel Framework</b>.
+                                    </li>
+                                  </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2024</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Founder<small>TrustChain Ecosystem</small></h3>
+                                <p>
+                                  <ul class="list-circle">
+                                    <li>
+                                      Built Company Profile Website.
+                                    </li>
+                                    <li>
+                                      Created TrustChain token (TRCH) using <b>Solidity Programming Language</b> Under Binance Smart Chain.
+                                    </li>
+                                    <li>
+                                      Developed a presale smart contract using <b>Solidity Programming Language & Web3.js</b>.
+                                    </li>
+                                  </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>2018</span>
+                             </div>
+                             <div class="timeline-info">
+                                  <h3><span>State Vocational High School 1 Percut Sei Tuan</span><small>Software Engineering</small></h3>
+                                  <p>
+                                    <ul class="list-circle">
+                                      <li>1st Place in Student Competency Competition in Deli Serdang Regency.</li>
+                                      <li>1st Place in Student Competency Competition in North Sumatra.</li>
+                                      <li>
+                                        Built a School Website using <b>Materialize CSS and Codelgniter 3</b>.
+                                      </li>
+                                      <li>
+                                        Built a School Website using <b>Materialize CSS and Codelgniter 3</b>.
+                                      </li>
+                                      <li>
+                                        Indonesian National Police acceptance exam technician in 2020.
+                                      </li>
+                                      <li>
+                                        Deployed the Computer-Based Test application at State Vocational High School 1 and several other high schools.
+                                      </li>
+                                    </ul>
+                                  </p>
+                             </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
-            <p>
-              Copyright © Zakaria Santoso All Rights Reserved.
+          
+          <div class="col-lg-12 mr-lg-12 col-12">
+            <div class="google-map w-100">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.937147131688!2d98.59840097458049!3d3.601869896372256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f15692b2a03%3A0x45b74167d4b0ff0!2sAHOI%20Game%20Dev!5e0!3m2!1sid!2sid!4v1709234314726!5m2!1sid!2sid" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
 
-              <!-- <br />Template Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">TemplateMo</a> and Developed by
-              <a rel="nofollow" href="https://zakariasantoso.github.io/" title="Zakaria Santoso">Me</a> -->
-            </p>
+            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div class="contact-info-item">
+                  <h3 class="mb-3 text-white">Say hello here!</h3>
+                  <p class="footer-text mb-0">+62 877 8062 5417</p>
+                  <p><a href="mailto:santosozakaria29@gmail.com">santosozakaria29@gmail.com</a></p>
+                </div>
+
+                <ul class="social-links">
+                     <!-- <li><a href="#" class="uil uil-twitter" data-toggle="tooltip" data-placement="left" title="Dribbble"></a></li>
+                     <li><a href="#" class="uil uil-youtube" data-toggle="tooltip" data-placement="left" title="Youtube"></a></li> -->
+                     <li><a href="#" class="uil uil-instagram" data-toggle="tooltip" data-placement="left" title="Instagram"></a></li>
+                </ul>
+            </div>
           </div>
+
+          <!-- <div class="col-lg-6 col-12">
+            <div class="contact-form">
+              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+              <form action="" method="get">
+                <div class="row">
+                  <div class="col-lg-6 col-12">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
+                  </div>
+
+                  <div class="col-lg-6 col-12">
+                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="ml-lg-auto col-lg-5 col-12">
+                    <input type="submit" class="form-control submit-btn" value="Send Button">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div> -->
+
         </div>
       </div>
-    </footer>
+    </section>
 
-    <!-- Scripts -->
-    <script async src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script async src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script async src="assets/js/animation.min.js"></script>
-    <script async src="assets/js/imagesloaded.min.js"></script>
-    <script async src="assets/js/custom.min.js"></script>
-    <script async src="assets/js/3d-card.min.js"></script>
+    <!-- FOOTER -->
+     <footer class="footer py-5">
+          <div class="container">
+               <div class="row">
+
+                    <!-- <div class="col-lg-12 col-12">                                
+                        <p class="copyright-text text-center">Copyright &copy; 2019 Company Name . All rights reserved</p>
+                        <p class="copyright-text text-center">Designed by <a rel="nofollow" href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                    </div> -->
+                    
+               </div>
+          </div>
+     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
   </body>
 </html>
