@@ -312,6 +312,10 @@ b, strong {
 .dark-mode .color-mode {
   color: #ffffff;
 }
+
+.dark-mode li, .dark-mode p, .dark-mode .timeline-info small, .dark-mode .contact-info p, .dark-mode .contact-info a {
+  color: #d5d5d5;
+}
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
