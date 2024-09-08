@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/unicons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/personal-style.css">
   </head>
@@ -55,6 +55,7 @@
                         Color mode
                       </div>
                     </div>
+                    <input type="button" onclick="connect();" class="btn btn-secondary btn-sm ml-2" id="connectWallet">
                 </ul>
             </div>
         </div>
@@ -67,7 +68,9 @@
                 
                 <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                     <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+                        <!-- force wrap text -->
+                        <small class="small-text wrap-text"
+                          id="welcomeMessage">Welcome to <span class="mobile-block">my portfolio website!</span></small>
                         <h1 class="animated animated-text">
                           <span class="mr-2">Hey folks, I'm</span>
                               <div class="animated-info">
@@ -75,10 +78,10 @@
                                   <span class="animated-item">Developer</span>
                                   <span class="animated-item">Programmer</span>
                               </div>
-                      </h1>
+                        </h1>
 
                         <p>
-                          I am highly energetic in Web 3.0 Development, New Technology, and Web Development. I have a passion for creating web applications and always excited to work on new projects.
+                          I am highly energetic in Web Development. I have a passion for creating web applications and always excited to work on new projects.
                         </p>
                         
                         <div class="custom-btn-group mt-4">
@@ -430,6 +433,7 @@ Palembang (desamuba.id).
     <script src="js/jQuery.headroom.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4-rc.1/web3.min.js"></script>
     <script src="js/custom.js"></script>
 
   </body>
