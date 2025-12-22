@@ -1,32 +1,7 @@
-/* To connect using MetaMask */
-async function connect() {
-  if (window.ethereum) {
-  
-    await window.ethereum.request({ method: "eth_requestAccounts" });
-    window.web3 = new Web3(window.ethereum);
-    // after connecting the wallet, hide the button
-    $("#connectWallet").css("display", "none");
-    $("#welcomeMessage").html("Welcome " + window.ethereum.selectedAddress + '!');
-  } else {
-    console.log("No wallet");
-  }
-}
 (function ($) {
 
   "use strict";
-    // check if user has metamask installed
-    if (window.ethereum) {
-      $("#connectWallet").css("display", "block");
-      $("#connectWallet").val("Connect Wallet");
-    } else {
-      // disable the button
-      $("#connectWallet").css("display", "none");
-    }
-    // check if user is already connected then show the wallet to welcomeMessage
-    if (window.ethereum.selectedAddress) {
-      $("#connectWallet").css("display", "none");
-      $("#welcomeMessage").html("Welcome " + window.ethereum.selectedAddress + '!');
-    }
+    // Removed MetaMask/Web3 logic to align with Laravel-focused positioning and avoid console errors
     // COLOR MODE
     $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
